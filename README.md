@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/lrhq3ntlhhkamr15?svg=true)](https://ci.appveyor.com/project/EvgeniyLyapunov/vue3-ts-first)
 
-[👀 смотреть здесь 👈](https://evgeniylyapunov.github.io/vue3-ts-first/calc)
+[👀 смотреть здесь 👈](https://evgeniylyapunov.github.io/vue3-ts-first)
 
 ---
 
