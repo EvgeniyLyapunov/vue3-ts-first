@@ -1,24 +1,16 @@
-# vue3-first-app
+# 🚀 vue3-first-app
 
-## Project setup
-```
-npm install
-```
+[![Build status](https://ci.appveyor.com/api/projects/status/lrhq3ntlhhkamr15?svg=true)](https://ci.appveyor.com/project/EvgeniyLyapunov/vue3-ts-first)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[👀 смотреть здесь 👈](https://evgeniylyapunov.github.io/vue3-ts-first/calc)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+---
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Что изучил:
+- Использовать TypeScript во vue3 приложении
+- Передавать props в дочерние компоненты
+- Передавать данные и события из дочерних компонентов через this.$emit
+- Синтаксис двухстороннего связывания input
+- Наверняка что-то ещё
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
