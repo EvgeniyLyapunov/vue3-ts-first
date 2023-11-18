@@ -1,3 +1,14 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
 .calc {
 	display: flex;
 	flex-direction: column;
@@ -181,4 +192,132 @@
 	text-align: right;
 	background-color: #aef8f8;
 	border-radius: 10px;
+}
+
+/* current tasks */
+
+.c-tasks {
+	padding: 0 50px;
+}
+
+.c-tasks__title {
+	text-align: center;
+}
+
+.c-tasks__form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 50px;
+}
+
+.c-tasks__input {
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.c-tasks__submit {
+	cursor: pointer;
+}
+
+.task-list {
+	width: 100%;
+}
+
+.task-item__head {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.task-item__head span {
+	color: red;
+	font-weight: 700;
+}
+
+.task-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+
+
+
+.task-item__cell {
+	padding: 10px;
+	border: 2px solid #4276b9;
+}
+
+.task-item__cell-id {
+	width: 10%;
+}
+
+.task-item__cell-name {
+	width: 20%;
+}
+
+.task-item__cell-status {
+	width: 20%;
+}
+
+.task-item__cell-department {
+	width: 30%;
+}
+
+/* Login view */
+
+.login {
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	padding-top: 100px;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+}
+
+.login-form__title {
+	margin-bottom: 50px;
+	font-size: 26px;
+	text-align: center;
+}
+
+.login-form__input {
+	width: 70%;
+	height: 40px;
+	padding: 0 10px;
+	margin-bottom: 30px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	transition: 0.3s box-shadow ease-in-out;
+	cursor: pointer;
+}
+
+.login-form__input:focus {
+	outline: none;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.login-form__submit {
+	padding: 5px 10px;
+	background-color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	cursor: pointer;
 }
