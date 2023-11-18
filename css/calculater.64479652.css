@@ -1,0 +1,1 @@
+.calc-widget__modal-close{position:absolute;top:25px;right:25px;display:block;width:35px;height:35px;background:url(/vue3-ts-first/img/x-circle.e1b2d9f1.svg) 50%/contain no-repeat;transition:transform .3s ease-in-out;cursor:pointer}.calc-widget__modal-close:hover{transform:scale(1.2)}.calc-widget__modal-close:active{transform:scale(.2)}
